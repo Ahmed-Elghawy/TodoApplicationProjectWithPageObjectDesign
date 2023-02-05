@@ -1,7 +1,10 @@
 package com.qacart.todo.testcases;
 
+import com.qacart.todo.api.RegisterApi;
 import com.qacart.todo.base.BaseTest;
 import com.qacart.todo.pages.LoginPage;
+
+import com.qacart.todo.pages.NewTodoPage;
 import com.qacart.todo.utils.ConfigUtils;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
@@ -16,6 +19,7 @@ public class LoginTest extends BaseTest {
     @Test(description = "Test the login functionality using email and password")
     public void ShouldBeAbleToLoginWithEmailAndPassword(){
         LoginPage loginPage = new LoginPage(getDriver());
+
         boolean isWelcomeDisplayed =
                 loginPage
                         .load()

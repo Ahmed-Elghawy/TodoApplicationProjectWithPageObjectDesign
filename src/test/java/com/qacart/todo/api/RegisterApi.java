@@ -12,10 +12,10 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 
 public class RegisterApi {
-    private static List<Cookie> restAssuredCookies;
-    private static String accessToken;
-    private static String userId;
-    private static String firstName;
+    private  List<Cookie> restAssuredCookies;
+    private  String accessToken;
+    private  String userId;
+    private  String firstName;
 
     public List<Cookie> getCookies (){
         return restAssuredCookies;
