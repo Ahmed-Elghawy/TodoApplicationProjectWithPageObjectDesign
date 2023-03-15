@@ -12,10 +12,12 @@ import org.testng.annotations.Test;
 
 @Feature("Auth Feature")
 public class LoginTest extends BaseTest {
+
     @Story("Login with Email and Password")
     @Description("It will login by filling the email and password then navigate to the todo page")
     @Test(description = "Test the login functionality using email and password")
     public void ShouldBeAbleToLoginWithEmailAndPassword(){
+
         LoginPage loginPage = new LoginPage(getDriver());
         boolean isWelcomeDisplayed =
                 loginPage
@@ -25,4 +27,3 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(isWelcomeDisplayed);
     }
 }
-
