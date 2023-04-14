@@ -1,0 +1,203 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< org.example:TodoApplicationProject >-----------------
+[INFO] Building TodoApplicationProject 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ TodoApplicationProject ---
+[INFO] Deleting C:\Users\ahmedeid.elghawy\TodoApplicationProjectWithPageObjectDesign\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ TodoApplicationProject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ TodoApplicationProject ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\ahmedeid.elghawy\TodoApplicationProjectWithPageObjectDesign\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ TodoApplicationProject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\ahmedeid.elghawy\TodoApplicationProjectWithPageObjectDesign\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ TodoApplicationProject ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to C:\Users\ahmedeid.elghawy\TodoApplicationProjectWithPageObjectDesign\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M7:test (default-test) @ TodoApplicationProject ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Request method:	POST
+Request URI:	https://todo.qacart.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "carroll.legros@gmail.com",
+    "password": "j269j2b1uenx7",
+    "firstName": "Sunni",
+    "lastName": "Moen"
+}
+Request method:	POST
+Request URI:	https://todo.qacart.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "saran.daugherty@yahoo.com",
+    "password": "w9eb1dkoa",
+    "firstName": "Valentin",
+    "lastName": "Jakubowski"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTc1OTQ0NDRhNjI3MDAxNDU0ODY1YyIsImZpcnN0TmFtZSI6IlN1bm5pIiwibGFzdE5hbWUiOiJNb2VuIiwiaWF0IjoxNjc5MjUxNzgwfQ.XcJS5PO4Jtqc6CryGFH904S96EpmGhcuxGXO2x9AUYs; Path=/
+Set-Cookie: userID=j%3A%226417594444a627001454865c%22; Path=/
+Set-Cookie: firstName=Sunni; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 274
+Etag: W/"112-tiZT6CgHcjNZIq5yIwhBXp533sQ"
+Date: Sun, 19 Mar 2023 18:49:40 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTc1OTQ0NDRhNjI3MDAxNDU0ODY1YyIsImZpcnN0TmFtZSI6IlN1bm5pIiwibGFzdE5hbWUiOiJNb2VuIiwiaWF0IjoxNjc5MjUxNzgwfQ.XcJS5PO4Jtqc6CryGFH904S96EpmGhcuxGXO2x9AUYs",
+    "userID": "6417594444a627001454865c",
+    "firstName": "Sunni"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTc1OTQ0NDRhNjI3MDAxNDU0ODY1YSIsImZpcnN0TmFtZSI6IlZhbGVudGluIiwibGFzdE5hbWUiOiJKYWt1Ym93c2tpIiwiaWF0IjoxNjc5MjUxNzgwfQ.cUaNPNlbqH-lTuZKBCvJIbUZbEiuglEHFsowbd7LNNU; Path=/
+Set-Cookie: userID=j%3A%226417594444a627001454865a%22; Path=/
+Set-Cookie: firstName=Valentin; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 289
+Etag: W/"121-Es6FzInYeeqxZK7lo/6PAg8dwD4"
+Date: Sun, 19 Mar 2023 18:49:40 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTc1OTQ0NDRhNjI3MDAxNDU0ODY1YSIsImZpcnN0TmFtZSI6IlZhbGVudGluIiwibGFzdE5hbWUiOiJKYWt1Ym93c2tpIiwiaWF0IjoxNjc5MjUxNzgwfQ.cUaNPNlbqH-lTuZKBCvJIbUZbEiuglEHFsowbd7LNNU",
+    "userID": "6417594444a627001454865a",
+    "firstName": "Valentin"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 171
+Etag: W/"ab-13mhkTc/aDMhAQnE0efXn68YGxY"
+Date: Sun, 19 Mar 2023 18:49:41 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "6417594544a6270014548660",
+    "item": "Learn Selenium WebDriver",
+    "userID": "6417594444a627001454865a",
+    "createdAt": "2023-03-19T18:49:41.475Z",
+    "__v": 0
+}
+[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.511 s <<< FAILURE! - in TestSuite
+[ERROR] com.qacart.todo.testcases.LoginTest.ShouldBeAbleToLoginWithEmailAndPassword  Time elapsed: 31.257 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"[data-testid="welcome"]"}
+  (Session info: chrome=111.0.5563.65)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f7fd281e73d74d7c1603d02c4fa8414, findElement {using=css selector, value=[data-testid="welcome"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\AHMEDE~1.ELG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51445/devtoo..., se:cdpVersion: 111.0.5563.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f7fd281e73d74d7c1603d02c4fa8414
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.isDisplayed(Unknown Source)
+	at com.qacart.todo.pages.TodoPage.isWelcomeMessageDisplayed(TodoPage.java:41)
+	at com.qacart.todo.testcases.LoginTest.ShouldBeAbleToLoginWithEmailAndPassword(LoginTest.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   LoginTest.ShouldBeAbleToLoginWithEmailAndPassword:26 » NoSuchElement no such element: Unable to locate element: {"method":"css selector","selector":"[data-testid="welcome"]"}
+  (Session info: chrome=111.0.5563.65)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f7fd281e73d74d7c1603d02c4fa8414, findElement {using=css selector, value=[data-testid="welcome"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\AHMEDE~1.ELG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51445/devtoo..., se:cdpVersion: 111.0.5563.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f7fd281e73d74d7c1603d02c4fa8414
+[INFO] 
+[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.938 s
+[INFO] Finished at: 2023-03-19T19:50:10+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7:test (default-test) on project TodoApplicationProject: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Users\ahmedeid.elghawy\TodoApplicationProjectWithPageObjectDesign\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

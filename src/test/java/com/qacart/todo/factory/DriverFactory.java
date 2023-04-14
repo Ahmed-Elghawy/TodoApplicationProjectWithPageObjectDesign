@@ -17,7 +17,7 @@ public class DriverFactory {
         switch (browser) {
             case "CHROME" -> {
                 ChromeOptions option = new ChromeOptions();
-              option.addArguments("--remote-allow-origins=*");
+                option.addArguments("--remote-allow-origins=*");
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver(option);
             }
